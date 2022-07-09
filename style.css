@@ -1,0 +1,57 @@
+.heading-title {
+  text-align: center;
+}
+
+.card-title {
+  text-align: end;
+  background: antiquewhite;
+  color: rgb(0, 0, 0);
+  top: 0;
+  right: 0;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  /* text-align: justify; */
+}
+
+.card-main {
+  border-radius: 0px;
+  box-shadow: none;
+  margin-top: 20px;
+  position: relative;
+}
+
+.card-main {
+  border-radius: -0.75rem;
+}
+
+/* .size-edit {
+  display: none;
+} */
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .col-sx-12 {
+      width: 100%;
+    }
+  }
+}
